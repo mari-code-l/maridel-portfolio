@@ -28,11 +28,14 @@ body {
   .img-fluid{
   height: auto; 
   width: auto; 
-  border-radius: 10px;
   }
 
-  div.col-md-4{
+  div.col-md-8{
   padding: 10px;
+  }
+
+  .card.mb-3{
+    background-color: #ebebe0;
   }
 
   .btn.btn-warning:hover{
@@ -55,12 +58,10 @@ body {
     text-shadow: 2px 2px #111111;
   }
 
-  .card.mb-3{
-    padding: 5px 5px;
-  }
-
   div#map {
     min-height: 360px;
+    border-style: none;
+    background-color: black;
   }
 
 #contact {
@@ -76,7 +77,8 @@ body {
   margin: 10px auto;
   font: 200 25px 'Oswald', sans-serif;
   letter-spacing: 3px;
-  color: #fff;
+  color: #ebebe0;
+  text-shadow: rgb(61, 60, 60);
 }
 
 .contact-wrapper {
@@ -240,9 +242,17 @@ body {
 }
 
 /* Begin Media Queries*/
-@media screen and (max-width: 760px) {
+
+@media screen and (max-width: 1100px) {
+  #contact {
+      height: 600px;
+  }
+}
+
+@media screen and (max-width: 768px) {
     #contact {
-        height: 1000px;
+      height: 780px;
+      padding: 10px;
     }
   .section-header {
     font-size: 25px;
@@ -294,10 +304,17 @@ body {
     line-height: 55px;
     font-size: 2rem;
   }
+  #contact{
+    height: 750px;
+  }
 }
 
 @media screen and (max-width: 410px) {
   .send-button {
     width: 99%;
+  }
+
+  #contact{
+    height: 750px;
   }
 }
