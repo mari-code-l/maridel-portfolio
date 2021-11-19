@@ -6,6 +6,7 @@ body {
 
 .navbar-nav{
     font-family: 'Crimson Pro', serif;
+    padding-left: 15px;
 }
 
 .hero-image {
