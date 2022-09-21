@@ -3,7 +3,7 @@
 body {
     margin: 0;
     font-family: 'Oswald', sans-serif;
-    background-color: #000000;
+    background-color: #fff;
 }
 
 .navbar-nav{
@@ -43,8 +43,8 @@ body {
   }
 
   .card.mb-3{
-    background-color: #000000;
-    color: #ebebe0;
+    background-color: #fff;
+    color: #000;
   }
 
   .btn.btn-warning:hover{
@@ -87,11 +87,11 @@ body {
 
 .section-header {
   text-align: center;
-  margin: 10px auto;
+  margin: 5px auto;
   font: 200 25px 'Oswald', sans-serif;
   letter-spacing: 3px;
-  color: #ebebe0;
-  text-shadow: rgb(61, 60, 60);
+  color: #040401ce;
+  text-shadow: rgb(211, 179, 18);
 }
 
 .contact-wrapper {
@@ -114,7 +114,7 @@ body {
   font-family: 'Crimson Pro', serif;
   font-weight: 400;
   padding: 20px 20px;
-  background-color: #ebebe0;
+  background-color: #f0f0ed;
 }
 
 .form-control, textarea {
@@ -220,7 +220,7 @@ body {
 }
 
 .social-media-list li a {
-  color:#e6ffcc;
+  color:#ffffff;
 }
 
 .social-media-list li {
