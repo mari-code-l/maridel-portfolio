@@ -9,6 +9,7 @@ body {
 .navbar-nav{
     font-family: 'Crimson Pro', serif;
     padding-left: 15px;
+    background-color: transparent;
 }
 
 .navbar-brand{
@@ -22,6 +23,7 @@ body {
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
   }
 
   .hero-text {
