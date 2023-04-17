@@ -4,17 +4,46 @@ body {
     margin: 0;
     font-family: 'Oswald', sans-serif;
     background-color: #fff;
+    padding: 0;
+}
+
+.navbar-toggler{
+  border-width:0;
+  box-shadow:none;
+  border: 0;
+}
+
+span.navbar-toggler.icon{
+  border-width:0;
+  box-shadow:none;
+  border: 0;
 }
 
 .navbar-nav{
     font-family: 'Crimson Pro', serif;
     padding-left: 15px;
     background-color: transparent;
+    list-style: none;
+    position:absolute;
+    right: 0.1%;
+    margin-top: 20px;
+    border: none;
 }
 
 .navbar-brand{
   font-family: 'Bodoni Moda', serif;
-  font-size: 24px;
+  font-size: 20px;
+  margin-top: 0px;
+}
+
+li.nav-item{
+  padding-top: 5px;
+  text-shadow: 1px 1px #101100;
+}
+
+button.navbar-toggler{
+  list-style: none;
+  margin-right: 20px;
 }
 
 .hero-image {
@@ -24,7 +53,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: right;
-  }
+}
 
   .hero-text {
     text-align: right;
