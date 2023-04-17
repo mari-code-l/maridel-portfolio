@@ -1,5 +1,5 @@
 function sendMail(contactForm) {
-    emailjs.send("service_web","template_gj1sxvn", {
+    emailjs.send("service_y85kvpg","template_gj1sxvn", {
         "from_name": contactForm.name.value,
         "from_email": contactForm.emailaddress.value,
         "project_request": contactForm.projectsummary.value
@@ -7,7 +7,7 @@ function sendMail(contactForm) {
     
     .then(
         function(response) {
-        alert("Submitted!");
+        alert("Thank You!");
         contactForm.name.value = '';
         contactForm.email.value = '';
         contactForm.projectsummary.value = '';
