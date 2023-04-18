@@ -3,7 +3,7 @@
 body {
     margin: 0;
     font-family: 'Oswald', sans-serif;
-    background-color: #fff;
+    background-color: #f0f0ed;
     padding: 0;
 }
 
@@ -22,12 +22,18 @@ span.navbar-toggler.icon{
 .navbar-nav{
     font-family: 'Crimson Pro', serif;
     padding-left: 15px;
-    background-color: transparent;
+    background-color:#f0f0ed;
     list-style: none;
     position:absolute;
     right: 0.1%;
-    margin-top: 20px;
     border: none;
+    text-align: center;
+    background: #f0f0ed;
+    margin-top: 22px;
+    margin-bottom: 22px;
+    opacity: 0.7;
+    border-radius: 5px;
+    overflow: hidden;
 }
 
 .navbar-brand{
@@ -38,12 +44,11 @@ span.navbar-toggler.icon{
 
 li.nav-item{
   padding-top: 5px;
-  text-shadow: 1px 1px #101100;
 }
 
 button.navbar-toggler{
   list-style: none;
-  margin-right: 20px;
+  border: none; 
 }
 
 .hero-image {
