@@ -18,3 +18,8 @@ function sendMail(contactForm) {
     );
     return false;
 }
+
+
+(function(){
+  emailjs.init("user_93XvYuauScjvUY6m1p5YR");
+})();
