@@ -153,7 +153,6 @@ button.navbar-toggler{
   max-width: 400px;
   font-family: 'Crimson Pro', serif;
   font-weight: 400;
-  padding: 20px 20px;
   background-color: #f0f0ed;
 }
 
@@ -173,6 +172,7 @@ button.navbar-toggler{
   overflow: hidden;
   transition: all .1s ease-in-out;
   border-style: none;
+  position: relative;
 }
 
 .send{
@@ -187,6 +187,7 @@ button.navbar-toggler{
   width: 400px;
   height: 34px;
   transition: all .1s ease-in-out;
+  justify-content: center;
 }
 
 .send-button:hover{
@@ -292,21 +293,25 @@ button.navbar-toggler{
   color: #555;
   letter-spacing: 1px;
   text-align: center;
+  padding-bottom: 70px;
 }
 
 /* Begin Media Queries*/
 
 @media screen and (max-width: 1100px) {
   #contact {
-      height: 600px;
+      height: 500px;
   }
 }
 
 @media screen and (max-width: 768px) {
     #contact {
-      height: 780px;
+      height: 900px;
       padding: 10px;
     }
+    .copyright {
+      padding-bottom: 30px;
+    }  
   .section-header {
     font-size: 25px;
   }
@@ -323,12 +328,25 @@ button.navbar-toggler{
     width: 60px;
     line-height: 60px;
   }
+  .send-button {
+    width: 100%;
+  }
+
 }
 
 @media screen and (max-width: 569px) {
   #contact {
     height: 1200px;
     }
+  
+    .copyright {
+      padding-bottom: 40px;
+    }  
+
+  .send-button {
+    width: 100%;
+  }
+
   .section-header{
     font-size: 20px;
   }
@@ -358,17 +376,17 @@ button.navbar-toggler{
     font-size: 2rem;
   }
   #contact{
-    height: 750px;
+    height: 900px;
   }
 }
 
 @media screen and (max-width: 410px) {
   .send-button {
-    width: 99%;
+    width: 100%;
   }
 
   #contact{
-    height: 750px;
+    height: 900px;
   }
 }
 
