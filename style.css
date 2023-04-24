@@ -384,3 +384,20 @@ button.navbar-toggler{
 a{
   color: #111
 }
+
+.wrapper {
+  text-align: center;
+  margin: 15%;
+}
+
+.roles {
+    font-size: 30px;
+    height: 50px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.roles div {
+    height: 50px;
+    transition: margin-top 1s ease-in-out;
+}
