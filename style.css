@@ -75,19 +75,6 @@ button.navbar-toggler{
   font-family: 'Oswald', sans-serif;
   }
 
-  .card.mb-3{
-    background-color: #fff;
-    color: #000;
-  }
-
-  .card-body{
-    border-radius: 10px;
-  }
-
-  ul{
-    list-style-type: square;
-  }
-
   .btn.btn-warning:hover{
     cursor: pointer;
     display: inline-block;
@@ -99,11 +86,6 @@ button.navbar-toggler{
 
   .display-5{
     text-shadow: 2px 2px #111111;
-  }
-
-  .card-body{
-    padding: 20px;
-    margin: 10px;
   }
 
   p.lead{
