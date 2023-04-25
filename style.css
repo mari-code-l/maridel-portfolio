@@ -395,7 +395,7 @@ a{
     height: 50px;
     overflow: hidden;
     width: 100%;
-    margin: 5%;
+    margin: 5% 0;
 }
 
 .roles div {
