@@ -51,8 +51,8 @@ button.navbar-toggler{
 .hero-image {
     background-image: url("images/bg.jpg");
     height: 768px; 
-    background-position: top;
-    background-repeat: no-repeat;
+    background-position: center;
+    background-repeat: repeat-x;
     background-size: cover;
     background-position-x: right;
 }
@@ -60,7 +60,7 @@ button.navbar-toggler{
   .hero-text {
     text-align: right;
     position: absolute;
-    top: 40%;
+    top: 60%;
     right: 10%;
     color: rgb(236, 236, 236);
     font-weight: 100;
