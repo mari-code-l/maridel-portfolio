@@ -300,6 +300,12 @@ button.navbar-toggler{
   background-position-x: center;
 }
 
+.btn.btn-warning.two{
+  top: 200px;
+  position: relative;
+
+}
+
 /* Begin Media Queries*/
 
 @media screen and (max-width: 1100px) {
