@@ -57,8 +57,8 @@ button.navbar-toggler{
     background-position-x: right;
 }
 
-.hero-image.two {
-  height: 768px; 
+.hero {
+  height: 200px; 
   background-position: center;
   background-repeat: repeat-x;
   background-size: cover;
