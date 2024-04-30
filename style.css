@@ -289,6 +289,14 @@ button.navbar-toggler{
   #contact {
       height: 500px;
   }
+  .btn.btn-warning:hover{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.2s;
+    background-color: transparent;
+    color: #fad60b;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -384,6 +392,15 @@ button.navbar-toggler{
 
   #contact{
     height: 900px;
+  }
+
+  .btn.btn-warning:hover{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.2s;
+    background-color: transparent;
+    color: #fad60b;
   }
 }
 
