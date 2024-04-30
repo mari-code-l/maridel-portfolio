@@ -57,6 +57,15 @@ button.navbar-toggler{
     background-position-x: right;
 }
 
+.hero-image1 {
+  background-image: url("images/bg1.jpg");
+  height: 768px; 
+  background-position: center;
+  background-repeat: repeat-x;
+  background-size: cover;
+  background-position-x: right;
+}
+
   .hero-text {
     text-align: right;
     position: absolute;
@@ -289,14 +298,6 @@ button.navbar-toggler{
   #contact {
       height: 500px;
   }
-  .btn.btn-warning:hover{
-    cursor: pointer;
-    display: inline-block;
-    position: relative;
-    transition: 0.2s;
-    background-color: transparent;
-    color: #fad60b;
-  }
 }
 
 @media screen and (max-width: 768px) {
@@ -326,14 +327,7 @@ button.navbar-toggler{
   .send-button {
     width: 100%;
   }
-  .btn.btn-warning:hover{
-    cursor: pointer;
-    display: inline-block;
-    position: relative;
-    transition: 0.2s;
-    background-color: transparent;
-    color: #fad60b;
-  }
+
 }
 
 @media screen and (max-width: 569px) {
@@ -392,15 +386,6 @@ button.navbar-toggler{
 
   #contact{
     height: 900px;
-  }
-
-  .btn.btn-warning:hover{
-    cursor: pointer;
-    display: inline-block;
-    position: relative;
-    transition: 0.2s;
-    background-color: transparent;
-    color: #fad60b;
   }
 }
 
