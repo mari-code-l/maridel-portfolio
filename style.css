@@ -292,12 +292,21 @@ button.navbar-toggler{
   background-position-x: right;
 }
 
+.stylemag {
+  height: 768px; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+}
+
 /* Begin Media Queries*/
 
 @media screen and (max-width: 1100px) {
   #contact {
       height: 500px;
   }
+  
 }
 
 @media screen and (max-width: 768px) {
@@ -326,6 +335,13 @@ button.navbar-toggler{
   }
   .send-button {
     width: 100%;
+  }
+  .stylemag {
+    height: 500px; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
   }
 
 }
@@ -376,6 +392,13 @@ button.navbar-toggler{
   }
   #contact{
     height: 900px;
+  }
+  .stylemag {
+    height: 400px; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
   }
 }
 
