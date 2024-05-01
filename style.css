@@ -387,8 +387,8 @@ button.navbar-toggler{
     height: 900px;
   }
   p.stylemag {
-    width: 400px; // new width for screen <768px
-    height: 400px; // new height for screen <768px
+    width: 430px; // new width for screen <768px
+    height: 430px; // new height for screen <768px
   }
 
 }
@@ -402,8 +402,8 @@ button.navbar-toggler{
     height: 900px;
   }
   p.stylemag {
-    width: 200px; // new width for screen <768px
-    height: 200px; // new height for screen <768px
+    width: 390px; // new width for screen <768px
+    height: 390px; // new height for screen <768px
   }
 }
 
