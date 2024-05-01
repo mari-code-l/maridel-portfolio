@@ -337,12 +337,9 @@ button.navbar-toggler{
   .send-button {
     width: 100%;
   }
-  .stylemag {
-    height: 500px; 
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-x: center;
+  p.stylemag {
+    height: 400px; 
+    width: 300px;
   }
 
 }
@@ -395,11 +392,8 @@ button.navbar-toggler{
     height: 900px;
   }
   .stylemag {
-    height: 400px; 
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-x: center;
+    height: 300px; 
+    width: 200px;
   }
 }
 
@@ -413,6 +407,10 @@ button.navbar-toggler{
   }
 }
 
+.stylemag {
+  height: 250px; 
+  width: 200px;
+}
 
 a{
   color: #111
@@ -447,7 +445,7 @@ section {
 }
 
 .section1 {
-  background-color: #181e1a;
+  background-color: #0000002b;
   clip-path: polygon(0 0,100% 0,100% 80%,0 100%);
   padding-bottom: 10%;
   color: #ebe9e9;
