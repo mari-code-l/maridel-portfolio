@@ -286,7 +286,7 @@ button.navbar-toggler{
 .sedcard {
   height: 768px; 
   background-position: center;
-  background-repeat: repeat;
+  background-repeat: repeat-y;
   background-size: cover;
   background-position-x: right;
   background-color: #111111;
