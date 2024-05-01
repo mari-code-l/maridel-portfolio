@@ -293,8 +293,8 @@ button.navbar-toggler{
 }
 
 .stylemag {
-  height: 400px; 
-  background-position: right;
+  height: 768px; 
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -336,11 +336,10 @@ button.navbar-toggler{
   .send-button {
     width: 100%;
   }
-  p.stylemag {
-    height: 200px; 
-    width: 1500px;
-  }
 
+  .stylemag {
+    padding: 100px;
+  }
 }
 
 @media screen and (max-width: 569px) {
@@ -391,8 +390,7 @@ button.navbar-toggler{
     height: 900px;
   }
   .stylemag {
-    height: 250px; 
-    width: 150px;
+    padding: 300px;
   }
 }
 
@@ -404,11 +402,10 @@ button.navbar-toggler{
   #contact{
     height: 900px;
   }
-}
 
-.stylemag {
-  height: 200px; 
-  width: 120px;
+  .stylemag {
+    padding: 300px;
+  }
 }
 
 a{
@@ -479,3 +476,6 @@ section {
   width: 100px; 
   margin: auto;
 }
+
+
+
