@@ -283,14 +283,21 @@ button.navbar-toggler{
   padding-bottom: 70px;
 }
 
-
-
-.wrapper#stylemags {
+.hero {
+  background-image: url("images/MaridelArcaSedcard.jpg");
   height: 768px; 
   background-position: center;
   background-repeat: repeat-x;
   background-size: cover;
   background-position-x: right;
+}
+
+.stylemag {
+  height: 768px; 
+  background-position: center;
+  background-repeat: repeat-x;
+  background-size: cover;
+  background-position-x: center;
 }
 
 
