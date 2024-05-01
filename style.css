@@ -386,11 +386,6 @@ button.navbar-toggler{
   #contact{
     height: 900px;
   }
-  p.stylemag {
-    width: 430px; // new width for screen <768px
-    height: 430px; // new height for screen <768px
-  }
-
 }
 
 @media screen and (max-width: 410px) {
@@ -400,10 +395,6 @@ button.navbar-toggler{
 
   #contact{
     height: 900px;
-  }
-  p.stylemag {
-    width: 390px; // new width for screen <768px
-    height: 390px; // new height for screen <768px
   }
 }
 
@@ -421,7 +412,7 @@ a{
     height: 50px;
     overflow: hidden;
     width: 100%;
-    margin: 0;
+    margin: 5% 0;
 }
 
 .roles div {
