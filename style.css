@@ -337,6 +337,10 @@ button.navbar-toggler{
   .send-button {
     width: 100%;
   }
+  p.stylemag {
+    width: 200px; // new width for screen <768px
+    height: 200px; // new height for screen <768px
+  }
 }
 
 @media screen and (max-width: 569px) {
@@ -386,8 +390,7 @@ button.navbar-toggler{
   #contact{
     height: 900px;
   }
-  .col-3 {
-    width: 25%;}
+
 }
 
 @media screen and (max-width: 410px) {
