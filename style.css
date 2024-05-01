@@ -337,10 +337,6 @@ button.navbar-toggler{
   .send-button {
     width: 100%;
   }
-  .sedcard {
-    height: 600px; 
-
-  }
 }
 
 @media screen and (max-width: 569px) {
@@ -351,10 +347,6 @@ button.navbar-toggler{
     .copyright {
       padding-bottom: 40px;
     }  
-
-    .sedcard {
-      height: 400px; 
-  
     }
 
   .send-button {
@@ -404,10 +396,6 @@ button.navbar-toggler{
 
   #contact{
     height: 900px;
-  }
-
-  .sedcard {
-    height: 300px; 
   }
 }
 
