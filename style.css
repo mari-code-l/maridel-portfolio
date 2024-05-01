@@ -337,10 +337,6 @@ button.navbar-toggler{
   .send-button {
     width: 100%;
   }
-  p.stylemag {
-    width: 700px; // new width for screen <768px
-    height: 700px; // new height for screen <768px
-  }
 }
 
 @media screen and (max-width: 569px) {
@@ -391,8 +387,8 @@ button.navbar-toggler{
     height: 900px;
   }
   p.stylemag {
-    width: 500px; // new width for screen <768px
-    height: 500px; // new height for screen <768px
+    width: 400px; // new width for screen <768px
+    height: 400px; // new height for screen <768px
   }
 
 }
@@ -406,8 +402,8 @@ button.navbar-toggler{
     height: 900px;
   }
   p.stylemag {
-    width: 350px; // new width for screen <768px
-    height: 350px; // new height for screen <768px
+    width: 200px; // new width for screen <768px
+    height: 200px; // new height for screen <768px
   }
 }
 
