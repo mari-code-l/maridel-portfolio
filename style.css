@@ -3,7 +3,7 @@
 body {
     margin: 0;
     font-family: 'Oswald', sans-serif;
-    background-color: #020202ea;
+    background-color: #f0f0ed;
     padding: 0;
     max-height: max-content;
 }
@@ -284,7 +284,7 @@ button.navbar-toggler{
 }
 
 .sedcard {
-  height: 768px; 
+  height: 1100px; 
   background-position: center;
   background-repeat: repeat-y;
   background-size: cover;
@@ -347,6 +347,7 @@ button.navbar-toggler{
     .copyright {
       padding-bottom: 40px;
     }  
+
 
   .send-button {
     width: 100%;
