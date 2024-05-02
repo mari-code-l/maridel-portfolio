@@ -68,7 +68,8 @@ button.navbar-toggler{
 
   .img-fluid{
   height: 768; 
-  width: auto; 
+  width: 1920px; 
+  position: absolute;
   }
 
   .black {
