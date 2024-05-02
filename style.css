@@ -67,14 +67,9 @@ button.navbar-toggler{
   }
 
   .img-fluid{
-  height: 768; 
-  width: 1920px; 
-  position: absolute;
+  height: auto; 
+  width: auto; 
   }
-
-  .black {
-    background-color: #111;
-    }
 
   div.col-md-12{
   font-family: 'Oswald', sans-serif;
@@ -302,6 +297,7 @@ button.navbar-toggler{
   background-position: center;
   background-repeat: repeat;
   background-size: cover;
+  background-position-x: center;
 }
 
 
