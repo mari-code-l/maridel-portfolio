@@ -71,6 +71,10 @@ button.navbar-toggler{
   width: auto; 
   }
 
+  .black {
+    background-color: #111;
+    }
+
   div.col-md-12{
   font-family: 'Oswald', sans-serif;
   }
